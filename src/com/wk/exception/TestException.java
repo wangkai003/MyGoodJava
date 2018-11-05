@@ -15,6 +15,7 @@ public class TestException {
 		 * Scanner s = new Scanner(System.in);
 		int a = s.nextInt();
         System.out.println(a);*/
+		
 	}
 
 }
