@@ -14,6 +14,7 @@ public class Testfile1 {
 		if(f.isFile()){
 			System.out.println("是一个文件");
 		}
+		//判断是否为一个目录
 		if(f.isDirectory()){
 			System.out.println("是一个目录");
 		}

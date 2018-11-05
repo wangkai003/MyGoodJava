@@ -17,10 +17,11 @@ public class Testfile2 {
 	
 	//递归体
 	static void printFile(File file,int level){
+		System.out.println(file.getName());
 		for (int i = 0; i < level; i++) {
 			System.out.print("->");
 		}
-		System.out.println(file.getName());
+
 		if(file.isDirectory()){
 			File [] foles = file.listFiles();
 			for (File file2 : foles) {
