@@ -14,7 +14,7 @@ public class TestIO3 {
 		String path = "D:/test/a/b";
         File f= new File(path);
         boolean b = f.mkdirs();
-        System.out.println(b);
+        System.out.println(b);  
 	}
 
 }
