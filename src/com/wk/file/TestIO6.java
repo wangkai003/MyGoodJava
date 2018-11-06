@@ -36,5 +36,24 @@ public class TestIO6 {
 		o.close();
 		in.close();
 	}
+	
+	public static void copyFile(File f1,File f2) throws Exception{
+		InputStream in = new FileInputStream(f1);
+		OutputStream o = new FileOutputStream(f2);
+		//3.拷贝
+		//定义存取的字节数组
+		byte[] arr = new byte[1024];
+		//定义接收的长度
+		int len =0;
+		//循环读取
+		while(-1!=(len = in.read(arr))){
+			//4.写出
+			o.write(arr, 0, len);
+		}
+		o.flush();
+		//5.关闭流,先打开的后关闭
+		o.close();
+		in.close();
+	}
 
 }
