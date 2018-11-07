@@ -16,7 +16,7 @@ public class Test {
 		Demo3 d = new Demo3();
 		Thread t1 = new Thread(d,"xp1ll");
 		Thread t2 = new Thread(d,"xp1bbbl");
-		Thread t3 = new Thread(d,"xp1mmml");
+		Thread t3 = new Thread(d,"xp1mmml"); 
 		t1.start();
 		t2.start();
 		t3.start();
