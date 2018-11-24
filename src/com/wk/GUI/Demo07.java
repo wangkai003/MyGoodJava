@@ -68,6 +68,6 @@ public class Demo07 extends JFrame{
 		this.setSize(300, 150);
 		this.setLocation(200, 200);
 		this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		this.setVisible(true);
+		this.setVisible(true); 
 	}
 }
